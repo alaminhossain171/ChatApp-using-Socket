@@ -12,6 +12,13 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CEC462BFE589458C9BE19D4B /* CircularStd-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D2830568E5C42978951B56B /* CircularStd-Black.ttf */; };
+		4B490CB5D5B544E08859DBAD /* CircularStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E27B09766E91434395B467C3 /* CircularStd-Bold.ttf */; };
+		71144053A4A449FAB082A20D /* CircularStd-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3840D049A5B4F1FBCB655BB /* CircularStd-Book.ttf */; };
+		CD9790E6A65C448881F25C1D /* CircularStd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B994F8DC442D1982D88F0 /* CircularStd-Medium.ttf */; };
+		CC4A1D91C4A44E5095549B1B /* Comfortaa_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D849FA0E98D4E83A79C9A27 /* Comfortaa_Bold.ttf */; };
+		F123E377E6444FE9B1F743E2 /* Comfortaa_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9BBB6493B87419EB191EEBB /* Comfortaa_Regular.ttf */; };
+		6E5DD69482A24DD2BC263D52 /* Comfortaa_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4597BFEFFF434356B4CB6589 /* Comfortaa_Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = chatapp/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = chatapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0D2830568E5C42978951B56B /* CircularStd-Black.ttf */ = {isa = PBXFileReference; name = "CircularStd-Black.ttf"; path = "../src/assets/fonts/CircularStd-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E27B09766E91434395B467C3 /* CircularStd-Bold.ttf */ = {isa = PBXFileReference; name = "CircularStd-Bold.ttf"; path = "../src/assets/fonts/CircularStd-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3840D049A5B4F1FBCB655BB /* CircularStd-Book.ttf */ = {isa = PBXFileReference; name = "CircularStd-Book.ttf"; path = "../src/assets/fonts/CircularStd-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A8B994F8DC442D1982D88F0 /* CircularStd-Medium.ttf */ = {isa = PBXFileReference; name = "CircularStd-Medium.ttf"; path = "../src/assets/fonts/CircularStd-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D849FA0E98D4E83A79C9A27 /* Comfortaa_Bold.ttf */ = {isa = PBXFileReference; name = "Comfortaa_Bold.ttf"; path = "../src/assets/fonts/Comfortaa_Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9BBB6493B87419EB191EEBB /* Comfortaa_Regular.ttf */ = {isa = PBXFileReference; name = "Comfortaa_Regular.ttf"; path = "../src/assets/fonts/Comfortaa_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4597BFEFFF434356B4CB6589 /* Comfortaa_Thin.ttf */ = {isa = PBXFileReference; name = "Comfortaa_Thin.ttf"; path = "../src/assets/fonts/Comfortaa_Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +123,7 @@
 				00E356EF1AD99517003FC87E /* chatappTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				CC88929198DA4EA1A02913E7 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +138,21 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		CC88929198DA4EA1A02913E7 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				0D2830568E5C42978951B56B /* CircularStd-Black.ttf */,
+				E27B09766E91434395B467C3 /* CircularStd-Bold.ttf */,
+				B3840D049A5B4F1FBCB655BB /* CircularStd-Book.ttf */,
+				5A8B994F8DC442D1982D88F0 /* CircularStd-Medium.ttf */,
+				2D849FA0E98D4E83A79C9A27 /* Comfortaa_Bold.ttf */,
+				B9BBB6493B87419EB191EEBB /* Comfortaa_Regular.ttf */,
+				4597BFEFFF434356B4CB6589 /* Comfortaa_Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +244,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CEC462BFE589458C9BE19D4B /* CircularStd-Black.ttf in Resources */,
+				4B490CB5D5B544E08859DBAD /* CircularStd-Bold.ttf in Resources */,
+				71144053A4A449FAB082A20D /* CircularStd-Book.ttf in Resources */,
+				CD9790E6A65C448881F25C1D /* CircularStd-Medium.ttf in Resources */,
+				CC4A1D91C4A44E5095549B1B /* Comfortaa_Bold.ttf in Resources */,
+				F123E377E6444FE9B1F743E2 /* Comfortaa_Regular.ttf in Resources */,
+				6E5DD69482A24DD2BC263D52 /* Comfortaa_Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
